@@ -20,8 +20,8 @@
 > `hadoop jar target/bda-exam-1.0-SNAPSHOT.jar /user/hadoop/input /user/hadoop/output`  
 
 7) Get output files
-> `hdfs dfs -get output ./`
-> `cat output/part-00000`
+> `hdfs dfs -get output ./`  
+> `cat output/part-r-00000`
 
 
 
