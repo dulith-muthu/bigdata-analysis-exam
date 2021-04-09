@@ -8,7 +8,7 @@
 > `sudo yum install git-core`
 
 3) Clone this repository
-> `git clone https://github.com/dulith-muthu/bigdata-analysis-exam.git`
+> `git clone https://github.com/dulith-muthu/bigdata-analysis-exam.git`  
 > `cd bigdata-analysis-exam`
 
 4) [optional] run `mvn clean install` - jar file included in this repo
