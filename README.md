@@ -16,7 +16,7 @@
 > `hdfs dfs -put input ./`
 
 6) Run MapReduce command.
-> `hadoop jar target/findaverage-1.0-SNAPSHOT.jar /user/hadoop/input /user/hadoop/output`  
+> `hadoop jar target/bda-exam-1.0-SNAPSHOT.jar /user/hadoop/input /user/hadoop/output`  
 
 
 
