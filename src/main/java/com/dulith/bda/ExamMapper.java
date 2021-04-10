@@ -11,7 +11,7 @@ import java.io.IOException;
 public class ExamMapper extends Mapper<Object,Text,Text,IntWritable> {
 
     public void map(Object key, Text value, Context context) throws IOException,InterruptedException{
-        String[] list = value.toString().split(" ");
+        String[] list = value.toString().split(",");
 
         String country = list[7];
 
