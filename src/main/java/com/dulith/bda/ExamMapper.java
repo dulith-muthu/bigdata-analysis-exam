@@ -13,9 +13,8 @@ public class ExamMapper extends Mapper<Object,Text,Text,IntWritable> {
     public void map(Object key, Text value, Context context) throws IOException,InterruptedException{
         String[] list = value.toString().split(" ");
 
-        String idNumber = list[0];
-        int intVal = Integer.parseInt(list[2]);
+        String country = list[7];
 
-        context.write(new Text(idNumber), new IntWritable(intVal));
+        context.write(new Text(country), new IntWritable(1));
     }
 }
